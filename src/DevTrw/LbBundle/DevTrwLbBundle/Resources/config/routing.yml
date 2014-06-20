@@ -1,8 +1,7 @@
+#dev_trw_lb_homepage:
+#    pattern:  /hello/{name}
+#    defaults: { _controller: DevTrwLbBundle:Default:index }
+
 dev_trw_lb_homepage:
     pattern:  /hello/{name}
-    defaults: { _controller: DevTrwLbBundle:Default:index }
-
-lb_dashboard:
-    path: /home
     defaults: { _controller: DevTrwLbBundle:Dashboard:index }
-    
