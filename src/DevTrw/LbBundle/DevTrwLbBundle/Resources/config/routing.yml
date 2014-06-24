@@ -3,5 +3,5 @@
 #    defaults: { _controller: DevTrwLbBundle:Default:index }
 
 dev_trw_lb_homepage:
-    pattern:  /hello/{name}
+    pattern:  /
     defaults: { _controller: DevTrwLbBundle:Dashboard:index }
