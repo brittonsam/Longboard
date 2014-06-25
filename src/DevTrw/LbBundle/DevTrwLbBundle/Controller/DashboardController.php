@@ -11,4 +11,8 @@ class DashboardController extends Controller
             return $this->render('DevTrwLbBundle:Dashboard:dashboard.html.twig');
 
         }
+        public function resultAction()
+        {
+            return $this->render('DevTrwLbBundle:Dashboard:mapresult.html.twig');
+        }
     }

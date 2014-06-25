@@ -5,3 +5,8 @@
 dev_trw_lb_homepage:
     pattern:  /
     defaults: { _controller: DevTrwLbBundle:Dashboard:index }
+
+
+map_result_page:
+    pattern: /result
+    defaults: { _controller: DevTrwLbBundle:Dashboard:result }
